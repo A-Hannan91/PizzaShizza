@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pizza Shizza</title>
+  </head>
+  <body>
+    <!-- ChatBot Messenger -->
+    <div class="chatbot">
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <df-messenger
+        chat-icon="https:&#x2F;&#x2F;firebasestorage.googleapis.com&#x2F;v0&#x2F;b&#x2F;image-icons.appspot.com&#x2F;o&#x2F;Logo.png?alt=media&amptoken=4399c758-5534-433d-bfec-1e9b022b6205"
+        chat-title="PizzaShizza"
+        agent-id="ef0a02d2-b3a0-4e27-82f1-f487a459c607"
+        language-code="en"
+      ></df-messenger>
+      <style>
+        df-messenger {
+          --df-messenger-bot-message: #ae6b28;
+          --df-messenger-button-titlebar-color: #ae6b28;
+          --df-messenger-chat-background-color: #811010;
+          --df-messenger-font-color: white;
+          --df-messenger-send-icon: #ae6b28;
+          --df-messenger-user-message: darkred;
+        }
+      </style>
+    </div>
+    <header>
+      <img src="./Images/Logo.png" alt="Pizza Shizza Logo" />
+      <!-- <h1>Pizza Shizza</h1> -->
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="../index.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="menu">
+        <ul class="pizza">
+          <li>
+            <h3>Classic Margherita</h3>
+            <p>
+              A timeless combination of tomato sauce, mozzarella cheese, and
+              fresh basil.
+            </p>
+            <img
+              src="./Images/Classic Pizza Margherita.jpg"
+              alt="Classic Margherita"
+            />
+          </li>
+          <ul>
+            <li><p>10" = Rs.950</p></li>
+            <li><p>12" = Rs.1190</p></li>
+            <li><p>16" = Rs.1690</p></li>
+          </ul>
+        </ul>
+        <ul class="pizza">
+          <li>
+            <h3>Pepperoni Passion</h3>
+            <p>
+              A mouthwatering pizza topped with spicy pepperoni slices and
+              melted cheese.
+            </p>
+            <img src="./Images/Pepperoni Pizza.jpg" alt="Pepperoni Passion" />
+          </li>
+          <ul>
+            <li><p>10" = Rs.950</p></li>
+            <li><p>12" = Rs.1190</p></li>
+            <li><p>16" = Rs.1690</p></li>
+          </ul>
+        </ul>
+        <ul class="pizza">
+          <li>
+            <h3>Chicken Fajita</h3>
+            <p>
+              Chicken Fajita Pizza is combination of diced chicken, green and
+              red pepper, mushrooms, and cheese on top!
+            </p>
+            <img src="./Images/Chicken Fajita.jpg" alt="Chicken Fajita" />
+          </li>
+          <ul>
+            <li><p>10" = Rs.950</p></li>
+            <li><p>12" = Rs.1190</p></li>
+            <li><p>16" = Rs.1690</p></li>
+          </ul>
+        </ul>
+        <ul class="pizza">
+          <li>
+            <h3>Chicken Tikka</h3>
+            <p>
+              Chicken Tikka Pizza is the combination of BBQ chicken, cheese,
+              olives, capsicum, and onions.
+            </p>
+            <img src="./Images/Chicken Tikka.jpg" alt="Chicken Tikka" />
+          </li>
+          <ul>
+            <li><p>10" = Rs.950</p></li>
+            <li><p>12" = Rs.1190</p></li>
+            <li><p>16" = Rs.1690</p></li>
+          </ul>
+        </ul>
+        <ul class="pizza">
+          <li>
+            <h3>Cheesy Lover</h3>
+            <p>
+              Its a Blend of Alfredo sauce and three different types of cheese
+              makes it Delightful.
+            </p>
+            <img src="./Images/Cheesy Lover.jpg" alt="Cheesy Lover" />
+          </li>
+          <ul>
+            <li><p>10" = Rs.950</p></li>
+            <li><p>12" = Rs.1190</p></li>
+            <li><p>16" = Rs.1690</p></li>
+          </ul>
+        </ul>
+        <ul class="pizza">
+          <li>
+            <h3>Veggie Lover</h3>
+            <p>
+              Vegetable Pizza prepare with a selection of tomatoes, artichoke,
+              bell pepper, olives, red onion and mashrooms with golden bubbling
+              mozzarella.
+            </p>
+            <img src="./Images/Veggie Lover.jpg" alt="Veggie Lover" />
+          </li>
+          <ul>
+            <li><p>10" = Rs.970</p></li>
+            <li><p>12" = Rs.1210</p></li>
+            <li><p>16" = Rs.1720</p></li>
+          </ul>
+        </ul>
+        <ul class="pizza">
+          <li>
+            <h3>Malai Boti</h3>
+            <p>
+              The Malai Boti pizza comes with marinated chicken, peppers, onion,
+              with cream sauce and melted cheese.
+            </p>
+            <img src="./Images/Malai Boti.jpg" alt="Malai Boti" />
+          </li>
+          <ul>
+            <li><p>10" = Rs.970</p></li>
+            <li><p>12" = Rs.1210</p></li>
+            <li><p>16" = Rs.1720</p></li>
+          </ul>
+        </ul>
+        <ul class="pizza">
+          <li>
+            <h3>Peri & Peri</h3>
+            <p>
+              lip-smacking African peri peri sauce, melting creamy mozzarella
+              cheese, tender charred chicken and crunchy onions simply divine on
+              top!
+            </p>
+            <img src="./Images/Peri Peri Pizza.jpg" alt="Peri Peri Pizza" />
+          </li>
+          <ul>
+            <li><p>10" = Rs.1050</p></li>
+            <li><p>12" = Rs.1290</p></li>
+            <li><p>16" = Rs.1790</p></li>
+          </ul>
+        </ul>
+        <!-- Add more pizzas here -->
+      </section>
+    </main>
+    <footer>
+      <div class="foot">
+        <div>
+          <h2>Come Hungry, Leave Happy!</h2>
+          <p>
+            Indulge in the irresistible flavors of Italy with Pizza Shizza. Join
+            us today and discover why we're the ultimate destination for pizza
+            aficionados everywhere.
+          </p>
+        </div>
+        <div>
+          <img src="./Images/Logo.png" alt="Pizza Shizza Logo" />
+        </div>
+      </div>
+      <p>&copy; 2024 Pizza Shizza. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Shizza</title>
+    <link rel="stylesheet" href="./Data/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ChatBot Messenger -->
+    <div class="chatbot">
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <df-messenger
+        chat-icon="https:&#x2F;&#x2F;firebasestorage.googleapis.com&#x2F;v0&#x2F;b&#x2F;image-icons.appspot.com&#x2F;o&#x2F;Logo.png?alt=media&amptoken=4399c758-5534-433d-bfec-1e9b022b6205"
+        intent="WELCOME"
+        chat-title="Pizza Shizza"
+        agent-id="ef0a02d2-b3a0-4e27-82f1-f487a459c607"
+        language-code="en"
+      ></df-messenger>
+      <style>
+        df-messenger {
+          --df-messenger-bot-message: #ae6b28;
+          --df-messenger-button-titlebar-color: #ae6b28;
+          --df-messenger-chat-background-color: #811010;
+          --df-messenger-font-color: white;
+          --df-messenger-send-icon: #ae6b28;
+          --df-messenger-user-message: darkred;
+        }
+      </style>
+    </div>
+    <header>
+      <img src="./Data/Images/Logo.png" alt="Pizza Shizza Logo" />
+      <!-- <h1>Pizza Shizza</h1> -->
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          At Pizza Shizza, we're passionate about crafting the perfect slice of
+          pizza. Our dedication to quality ingredients, authentic recipes, and
+          exceptional service sets us apart as your go-to destination for pizza
+          lovers.
+        </p>
+      </section>
+      <section class="story">
+        <h2>Our Story</h2>
+        <p>
+          Founded in the heart of Karachi, Pizza Shizza has a rich history
+          steeped in tradition. Our founder, Giovanni Rossi, had a vision to
+          bring the true taste of Italy to every corner of the Country. With
+          generations of family recipes and a commitment to excellence, Pizza
+          Shizza was born. Today, we continue to honor Giovanni's legacy by
+          delivering unparalleled flavor and unforgettable dining experiences.
+        </p>
+        <div class="story-2">
+          <h3>Our Pizza</h3>
+          <p>
+            Indulge in a symphony of flavors with our exquisite pizza creations.
+            From classic Margherita to adventurous Meat Lover's, each bite is a
+            journey through Italy's culinary landscape. Our pizzas are
+            handcrafted with love and precision, using only the freshest
+            ingredients and authentic Italian techniques. Whether you're craving
+            something traditional or feeling adventurous, we have a pizza for
+            every palate.
+          </p>
+        </div>
+      </section>
+      <section class="commiment">
+        <h2>Our Commitment to Quality</h2>
+        <p>
+          At Pizza Shizza, quality is our top priority. We source the finest
+          ingredients, locally and globally, to ensure each dish exceeds your
+          expectations. From farm-fresh vegetables to premium meats and cheeses,
+          we spare no effort in delivering excellence with every bite.
+        </p>
+      </section>
+      <section id="menu">
+        <h2>Menu</h2>
+        <p>
+          Explore our diverse menu featuring an array of mouthwatering options.
+          From appetizing starters and crisp salads to decadent desserts, our
+          menu offers something for everyone. Pair your favorite pizza with a
+          refreshing beverage to complete your dining experience.
+        </p>
+        <button>
+          <a href="./Data/Menu.html" target="_blank"
+            >Check Our Delicious Menu</a
+          >
+        </button>
+        <!-- Add more pizzas here -->
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          Experience the magic of Pizza Shizza at our convenient location.
+          Whether you're dining in with friends and family or ordering takeout
+          for a cozy night in, our warm and inviting atmosphere awaits you. Join
+          us for a culinary journey you won't soon forget.
+        </p>
+        <address>
+          <p>Visit us at:</p>
+          <p>123 Main Street, Dhoraji Town</p>
+        </address>
+        <p>For inquiries, call: 555-555-5555</p>
+      </section>
+    </main>
+    <script src="./Data/app.js"></script>
+    <footer>
+      <div class="foot">
+        <div>
+          <h2>Come Hungry, Leave Happy!</h2>
+          <p>
+            Indulge in the irresistible flavors of Italy with Pizza Shizza. Join
+            us today and discover why we're the ultimate destination for pizza
+            aficionados everywhere.
+          </p>
+        </div>
+        <div>
+          <img src="./Data/Images/Logo.png" alt="Pizza Shizza Logo" />
+        </div>
+      </div>
+      <p>&copy; 2024 Pizza Shizza. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
